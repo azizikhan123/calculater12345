@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculater</title>
+	<link rel="stylesheet" type="text/css" href="indix.css">
+</head>
+<body>
+	<center>
+	<div class="contaniar">
+	<div class="khan" style="background: tomato;padding:30px; border-radius: 10px;height: 200px;width: 400px;text-align: center;padding-top: 70px;height: 350px">
+		<center><h4 style="color: white;font-family: Wide Latin;padding-left: 30px;">Calculater</h4></center>
+		
+		<form>
+			<div>
+				<input type="text" name="display" readonly placeholder="Enter your Number">
+			</div>
+			<div style="padding-top: 10px">
+				<input type="button" value="AC" onclick="display.value =''"style="border:none;width: 30px;border-radius: 20px;">
+
+				<input type="button" value="DE" onclick="display.value =''"style="border:none;width: 30px;border-radius: 20px;">
+
+				<input type="button" value="*" onclick="display.value +='*'"style="border:none;width: 30px;border-radius: 20px;">
+
+				<input type="button" value="/" onclick="display.value +='/'"style="border:none;width: 30px;border-radius: 20px;">
+			</div>
+			<div>
+				<input type="button" value="-" onclick="display.value +='-'"style="border:none;width: 50px;border-radius: 20px;">
+				<input type="button" value="%" onclick="display.value +='%'"style="border:none;width: 50px;border-radius: 20px;">
+			<input type="button" value="-" onclick="display.value +='-'"style="border:none;width: 50px;border-radius: 20px;">
+
+
+			</div>
+			<div style="padding-top: 10px">
+				
+				<input type="button" value="7" onclick="display.value +='7'"style="border:none;width: 50px;border-radius: 20px;">
+
+				<input type="button" value="8" onclick="display.value +='8'"style="border:none;width: 50px;border-radius: 20px;">
+
+				<input type="button" value="9" onclick="display.value +='9'"style="border:none;width: 50px;border-radius: 20px;">
+			</div>
+			<div style="padding-top: 10px">
+				
+				<input type="button" value="4" onclick="display.value +='4'"style="border:none;width: 50px;border-radius: 20px;">
+
+				<input type="button" value="5" onclick="display.value +='5'"style="border:none;width: 50px;border-radius: 20px;">
+
+				<input type="button" value="6" onclick="display.value +='6'"style="border:none;width: 50px;border-radius: 20px;">
+			</div>
+			<div style="padding-top: 10px">
+				
+				<input type="button" value="1" onclick="display.value +='1'"style="border:none;width: 50px;border-radius: 20px;">
+
+				<input type="button" value="2" onclick="display.value +='2'"style="border:none;width: 50px;border-radius: 20px;">
+
+				<input type="button" value="3" onclick="display.value +='3'"style="border:none;width: 50px;border-radius: 20px;">
+			</div>
+			<div style="padding-top: 10px">
+				
+				<input type="button" value="00" onclick="display.value +='00'"style="border:none;width: 50px;border-radius: 20px;">
+			<input type="button" value="0" onclick="display.value +='0'"style="border:none;width: 50px;border-radius: 20px;">
+			</div>
+			<br>
+			<div style="text-align: center;">
+				
+				<input type="button" value="=" onclick="display.value=eval(display.value)" class="equal" style="border:none;width: 60px;border-radius: 50px;padding-top: 6px;">
+			</div>
+		
+	</div>	
+
+	</div>
+</center>
+
+ </form>
+
+</body>
+</html>
